@@ -10,5 +10,8 @@ mkdir output
 # -d: directory, -R: report type, plain text
 ./node_modules/.bin/solium -d vulnerable -R gcc > output/solium_linter.txt
 
+# 2 - solcheck linter
+./node_modules/.bin/solcheck vulnerable/* > output/solcheck_linter.txt
+
 # exit with success
 exit 0

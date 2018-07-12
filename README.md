@@ -9,9 +9,10 @@ Currently more tools are being added. All the tools are tested on vulnerable sma
 3. `npm run check`
 
 ## Supported tools
-| Tool | Status |
-|------|--------|
-| [Solium linter](https://github.com/duaraghav8/Solium) | On |
+| Tool | Status | Last commit |
+|------|--------|-------------|
+| [Solium linter](https://github.com/duaraghav8/Solium) | On | 2 days ago |
+| [Solcheck linter](https://github.com/federicobond/solcheck) | On | 9 months ago |
 
 ## Todo
 - https://consensys.github.io/smart-contract-best-practices/security_tools/
