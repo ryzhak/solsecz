@@ -1,0 +1,14 @@
+{
+  "name": "solsecz",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+	  "check": "scripts/check.sh"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "solium": "^1.1.8"
+  }
+}
