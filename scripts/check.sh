@@ -13,5 +13,8 @@ mkdir output
 # 2 - solcheck linter
 ./node_modules/.bin/solcheck vulnerable/* > output/solcheck_linter.txt
 
+# 3 - solhint linter
+./node_modules/.bin/solhint "vulnerable/**/*.sol" > output/solhint_linter.txt
+
 # exit with success
 exit 0

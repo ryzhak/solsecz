@@ -13,6 +13,7 @@ Currently more tools are being added. All the tools are tested on vulnerable sma
 |------|--------|-------------|
 | [Solium linter](https://github.com/duaraghav8/Solium) | On | 2 days ago |
 | [Solcheck linter](https://github.com/federicobond/solcheck) | On | 9 months ago |
+| [Solhint linter](https://github.com/protofire/solhint) | On | 1 month ago |
 | [Solint linter](https://github.com/SilentCicero/solint) | Off | 2 years ago |
 
 ## Todo
