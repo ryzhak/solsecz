@@ -19,4 +19,4 @@ Currently more tools are being added. All the tools are tested on vulnerable sma
 ## Todo
 - https://consensys.github.io/smart-contract-best-practices/security_tools/
 - https://habr.com/company/dsec/blog/353676/
-
+- http://solidity.readthedocs.io/en/v0.4.24/index.html
