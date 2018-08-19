@@ -3,8 +3,9 @@
 # remove output folder if exists
 rm -rf output
 
-# create output folder
+# create output and mythril folders
 mkdir output
+mkdir output/mythril
 
 # 1 - solium linter
 # -d: directory, -R: report type, plain text
@@ -16,7 +17,15 @@ mkdir output
 # 3 - solhint linter
 ./node_modules/.bin/solhint "vulnerable/**/*.sol" > output/solhint_linter.txt
 
-# 4 - manticore
+# 4 - mythril
+myth -xo json vulnerable/DynamicTypesLength.sol > output/mythril/DynamicTypesLength.json
+myth -xo json vulnerable/Overflow.sol > output/mythril/Overflow.json
+myth -xo json vulnerable/RaceCondition.sol > output/mythril/RaceCondition.json
+myth -xo json vulnerable/Reentrancy.sol > output/mythril/Reentrancy.json
+myth -xo json vulnerable/UninitializedStoragePointer.sol > output/mythril/UninitializedStoragePointer.json
+myth -xo json vulnerable/VariableShadowing.sol > output/mythril/VariableShadowing.json
+
+# 5 - manticore
 cd output
 manticore --detect-all ../vulnerable/DynamicTypesLength.sol
 manticore --detect-all ../vulnerable/Overflow.sol

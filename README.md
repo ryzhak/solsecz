@@ -8,19 +8,21 @@ Currently more tools are being added. All the tools are tested on vulnerable sma
 2. `npm install`
 3. install [solc](http://solidity.readthedocs.io/en/v0.4.24/installing-solidity.html)
 4. install [manticore](https://github.com/trailofbits/manticore)
-5. `npm run check`
+5. install [mythril](https://github.com/ConsenSys/mythril) 
+6. `npm run check`
 
 ## Supported tools
 | Tool | Status | Last commit |
 |------|--------|-------------|
 | [Manticore](https://github.com/trailofbits/manticore) | On | 2 days ago |
+| [Mythril](https://github.com/ConsenSys/mythril) | On | 1 day ago |
 | [Solium linter](https://github.com/duaraghav8/Solium) | On | 2 days ago |
 | [Solcheck linter](https://github.com/federicobond/solcheck) | On | 9 months ago |
 | [Solhint linter](https://github.com/protofire/solhint) | On | 1 month ago |
 | [Solint linter](https://github.com/SilentCicero/solint) | Off | 2 years ago |
 
 ## Notice
-To check your contracts with `manticore` you should edit `check.sh` script accordingly.
+To check your contracts with `manticore` or `mythril` you should edit `check.sh` script accordingly.
 
 ## Todo
 - https://consensys.github.io/smart-contract-best-practices/security_tools/
