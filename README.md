@@ -14,6 +14,7 @@ Currently more tools are being added. All the tools are tested on vulnerable sma
 ## Supported tools
 | Tool | Status | Last commit |
 |------|--------|-------------|
+| [Solgraph](https://github.com/raineorshine/solgraph) | On | 4 days ago |
 | [Manticore](https://github.com/trailofbits/manticore) | On | 2 days ago |
 | [Mythril](https://github.com/ConsenSys/mythril) | On | 1 day ago |
 | [Solium linter](https://github.com/duaraghav8/Solium) | On | 2 days ago |
@@ -22,10 +23,10 @@ Currently more tools are being added. All the tools are tested on vulnerable sma
 | [Solint linter](https://github.com/SilentCicero/solint) | Off | 2 years ago |
 
 ## Notice
-To check your contracts with `manticore` or `mythril` you should edit `check.sh` script accordingly.
+- To check your contracts with `manticore` or `mythril` you should edit `check.sh` script accordingly.
+- To visualize `dot` files produced by `solgraph` you should isntall [graphviz](https://graphviz.gitlab.io/download/) and run the following command: `dot -Tpng MyContract.dot -o MyContract.png`
 
 ## Todo
-- https://consensys.github.io/smart-contract-best-practices/security_tools/
 - https://habr.com/company/dsec/blog/353676/
 - http://solidity.readthedocs.io/en/v0.4.24/index.html
 - https://medium.com/loom-network/how-to-secure-your-smart-contracts-6-solidity-vulnerabilities-and-how-to-avoid-them-part-2-730db0aa4834
